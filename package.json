@@ -10,8 +10,13 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "allowScripts": {
+    "cypress@16.1.0": true
+  },
+  "devDependencies": {
+    "cypress": "^16.1.0"
+  },
   "dependencies": {
-    "cypress": "^15.9.0",
-    "cypress-plugin-api": "^2.11.2"
+    "cypress-plugin-api": "^2.12.3"
   }
 }
