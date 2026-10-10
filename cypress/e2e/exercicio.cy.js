@@ -135,8 +135,7 @@ describe('Testes da Funcionalidade Catálogo de Livros', () => {
 
     describe('DELETE - Teste de API - Catálogo de Livros', () => {
 
-    // Objetivo: Validar que um livro pode ser removido do catálogo
-    // Verificar que apenas admin pode deletar livros (validação de permissão)
+
     it('DELETE - Deve deletar um livro previamente cadastrado', () => {
 
         const titulo = `Livro Cypress ${Date.now()}`
